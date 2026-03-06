@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Portfolio</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+<main class="w-full px-4 sm:px-8 md:px-20 lg:px-40 py-8">
+
+<!-- NAVBAR -->
+<nav class="flex flex-col sm:flex-row justify-between items-center gap-4 mb-10">
+<h1 class="text-xl font-semibold text-white">Portfolio</h1>
+<div class="flex gap-4 text-sm">
+<a href="#home" class="opacity-70 hover:opacity-100 hover:underline transition text-gray-300">Home</a>
+<a href="#about" class="opacity-70 hover:opacity-100 hover:underline transition text-gray-300">About</a>
+<a href="#projects" class="opacity-70 hover:opacity-100 hover:underline transition text-gray-300">Projects</a>
+<a href="#contact" class="opacity-70 hover:opacity-100 hover:underline transition text-gray-300">Contact</a>
+</div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="mt-16 flex flex-col md:flex-row justify-between items-start md:items-center gap-10 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 p-6 rounded-xl shadow-lg text-white">
+<div>
+<h6 class="text-xl font-bold tracking-tight text-gray-300">Hello, I am</h6>
+<h1 class="text-5xl sm:text-6xl font-bold tracking-tight text-white">Mahesh</h1>
+</div>
+<div class="text-left md:text-right">
+<h4 class="text-sm opacity-70 text-gray-400"><span class="time">[06:11 PM]</span></h4>
+<div class="w-24 h-px bg-gray-400 my-2 md:ml-auto"></div>
+<h3 class="font-bold text-lg tracking-tight text-white">Creative Frontend Developer</h3>
+</div>
+</section>
+
+<!-- PROFILE SECTION -->
+<!-- HERO / PROFILE SECTION -->
+<section class="relative mt-16 flex flex-col-reverse md:flex-row items-center justify-between bg-gray-900 px-6 sm:px-10 lg:px-20 py-12 rounded-2xl shadow-xl">
+  
+  <!-- Text Left -->
+   
+  <div class="flex-1 text-center md:text-left space-y-4">
+    <h6 class="text-white text-lg font-medium">Hello, my name is</h6>
+    <h1 class="text-5xl sm:text-6xl font-bold text-white">
+      <span class="text-violet-400">Mahesh</span> Dhondge
+    </h1>
+    <p class="text-xl sm:text-2xl text-gray-300 italic">I am a Full Stack Developer</p>
+    <p class="text-gray-400 max-w-md mx-auto md:mx-0">
+      I am from India. I have experience in web development, 
+      creating responsive and dynamic web applications, and working with modern technologies like React, Node.js, and MongoDB.
+    </p>
+    
+    <!-- CTA Buttons -->
+    <div class="mt-6 flex justify-center md:justify-start gap-4">
+      <a href="https://drive.google.com/file/d/1wMeRF7b_JZ6P3Hsau-lZwaxhPmwfwXcz/view?usp=drive_link" class="px-6 py-3 border border-violet-400 text-violet-400 font-semibold rounded-full hover:bg-violet-400 hover:text-gray-900 transition">Download CV</a>
+      <a href="#skills" class="px-6 py-3 border border-gray-500 text-gray-400 font-semibold rounded-full hover:bg-gray-700 hover:text-white transition">My Skills</a>
+    </div>
+  </div>
+
+  <!-- Profile Image Right -->
+  <div class="flex-shrink-0 mb-6 md:mb-0">
+    <div class="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-violet-300 shadow-lg hover:scale-105 transition-transform duration-500">
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQEiVMajm54ZJg/profile-displayphoto-crop_800_800/B56Zt3mebAJEAM-/0/1767238135219?e=1772668800&v=beta&t=009weAr82H9NzumYI5CgIqX3qz_quRRCh6rhKBLqeHs" alt="Mahesh Dhondge" class="w-full h-full object-cover">
+      <!-- Outer ring animation -->
+      <div class="absolute inset-0 rounded-full border-2 border-cyan-400 opacity-30 animate-ping"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="mt-32 px-4 sm:px-10 py-20 flex justify-center bg-gray-800 rounded-xl shadow-md">
+<div class="max-w-3xl text-center">
+<h1 class="text-2xl sm:text-3xl font-bold mb-4 text-violet-400">[ I design and build experience ]</h1>
+<p class="text-base sm:text-xl opacity-70 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut illo corrupti omnis, odio voluptates assumenda maxime dolorum molestias praesentium.</p>
+</div>
+</section>
+
+<!-- TIMELINE 2025 -->
+<section class="w-full  relative">
+  <!-- Sticky Header -->
+  <div class="w-full top-0 px-4 sm:px-10 py-8 gap-6 sm:gap-10 flex flex-col sm:flex-row items-start sm:items-center sticky">
+    <h1 class="text-5xl sm:text-8xl tracking-tighter font-medium text-violet-300">2026</h1>
+    <div class="w-16 sm:w-70 h-1 bg-emerald-50 mt-4 sm:mt-0"></div>
+    <h1 class="text-2xl sm:text-5xl opacity-30 tracking-tighter font-medium text-slate-00 mt-2 sm:mt-0">The Beginning</h1>
+  </div>
+
+  <!-- Projects Grid: 2 per row -->
+  <div id="projects"  class="imagecontent w-full gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 px-4 sm:px-10 py-8 ">
+
+    <!-- Project 1 -->
+    <a href="https://wanderlust-u3pn.onrender.com/listings" target="_blank" class="block">
+      <div class="bg-gray-900 rounded-xl shadow overflow-hidden hover:scale-105 transition duration-300 " >
+        <img src="projects/project1.png" alt="Wanderlust" class="w-full h-60 sm:h-72 object-cover"/>
+        <div class="p-4 text-white">
+          <h3 class="font-bold text-lg">Wanderlust</h3>
+          <p class="text-sm opacity-70 mt-1">A Rental Listing Platform.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="px-2 py-1 bg-emerald-700 rounded text-xs">Node js</span>
+            <span class="px-2 py-1 bg-violet-700 rounded text-xs">Mongo DB</span>
+            <span class="px-2 py-1 bg-cyan-700 rounded text-xs">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 2 -->
+    <a href="https://deltastudent-2002.github.io/obys_agency/" target="_blank" class="block ">
+      <div class="bg-gray-900 rounded-xl shadow overflow-hidden hover:scale-105 transition duration-300">
+        <img src="projects/project2.png" alt="Obeys Agency Clone" class="w-full h-60 sm:h-72 object-cover"/>
+        <div class="p-4 text-white">
+          <h3 class="font-bold text-lg">Obeys Agency Clone</h3>
+          <p class="text-sm opacity-70 mt-1">A popular animated landing page clone.</p>
+          <div class="flex gap-2 mt-2 popup-scale">
+            <span class="px-2 py-1 bg-cyan-700 rounded text-xs">HTML</span>
+            <span class="px-2 py-1 bg-emerald-700 rounded text-xs">CSS</span>
+            <span class="px-2 py-1 bg-violet-700 rounded text-xs">GSAP</span>
+             <span class="px-2 py-1 bg-yellow-700 rounded text-xs">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 3 -->
+    <a href="https://mintlify-byme.netlify.app/" target="_blank" class="block">
+      <div class="bg-gray-900 rounded-xl shadow overflow-hidden hover:scale-105 transition duration-300">
+        <img src="projects/project3.png" alt="Mintlify Clone" class="w-full h-60 sm:h-72 object-cover"/>
+        <div class="p-4 text-white">
+          <h3 class="font-bold text-lg">Mintlify Clone</h3>
+          <p class="text-sm opacity-70 mt-1">A frontend clone of Mintlify.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="px-2 py-1 bg-cyan-700 rounded text-xs">HTML</span>
+            <span class="px-2 py-1 bg-emerald-700 rounded text-xs"> CSS</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Project 4 -->
+    <a href="https://cursor-bymaheshd.netlify.app//" target="_blank" class="block">
+      <div class="bg-gray-900 rounded-xl shadow overflow-hidden hover:scale-105 transition duration-300">
+        <img src="projects/project4.png" alt="Cursor Clone" class="w-full h-60 sm:h-72 object-cover"/>
+        <div class="p-4 text-white">
+          <h3 class="font-bold text-lg">Cursor Clone</h3>
+          <p class="text-sm opacity-70 mt-1">A frontend clone of Cursor.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="px-2 py-1 bg-cyan-700 rounded text-xs">HTML</span>
+            <span class="px-2 py-1 bg-emerald-700 rounded text-xs">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- TIMELINE 2026
+<section class="w-full px-4 sm:px-10 py-20 mt-32 sm:mt-80 relative">
+<div class="w-full top-0 px-4 sm:px-10 py-8 gap-6 sm:gap-10 flex flex-col sm:flex-row items-start sm:items-center sticky">
+<h1 class="text-5xl sm:text-8xl tracking-tighter font-medium text-purple-400">2026</h1>
+<div class="w-16 sm:w-70 h-1 bg-purple-400 mt-4 sm:mt-0"></div>
+<h1 class="text-2xl sm:text-5xl opacity-30 tracking-tighter font-medium text-purple-600 mt-2 sm:mt-0">The Rise</h1>
+</div>
+<div class="imagecontent w-full gap-4 sm:gap-10 flex flex-col sm:flex-row px-4 sm:px-10 py-8">
+<div class="col flex flex-col gap-4 sm:gap-20 w-full sm:w-1/3">
+<div class="w-full h-40 sm:h-120 bg-gray-700 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+<div class="w-full h-40 sm:h-120 bg-gray-700 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+</div>
+<div class="col flex flex-col gap-4 sm:gap-20 w-full sm:w-1/3 sm:pt-30 mt-4 sm:mt-0">
+<div class="w-full h-40 sm:h-120 bg-gray-600 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+<div class="w-full h-32 sm:h-100 bg-gray-600 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+</div>
+<div class="col flex flex-col gap-4 sm:gap-20 w-full sm:w-1/3 sm:pt-15 mt-4 sm:mt-0">
+<div class="w-full h-40 sm:h-120 bg-gray-700 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+<div class="w-full h-32 sm:h-100 bg-gray-700 rounded-xl shadow hover:scale-105 transition duration-300"></div>
+</div>
+</div>
+</section> -->
+
+<!-- SKILLS -->
+<section id="skills" class="py-24 max-w-7xl mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-12 text-violet-300">Skills</h2>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-red-500 text-gray-200 hover:text-white transition duration-300">HTML</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-yellow-500 text-gray-200 hover:text-white transition duration-300">CSS </div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-orange-500 text-gray-200 hover:text-white transition duration-300">JavaScript</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-green-500 text-gray-200 hover:text-white transition duration-300">Node JS</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-blue-600 text-gray-200 hover:text-white transition duration-300">React JS</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-teal-500 text-gray-200 hover:text-white transition duration-300">MongoDB</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-violet-500 text-gray-200 hover:text-white transition duration-300">SQL</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-pink-500 text-gray-200 hover:text-white transition duration-300">Java</div>
+<div class="p-6 border rounded-xl bg-gray-700 hover:bg-emerald-500 text-gray-200 hover:text-white transition duration-300">Git & Github</div>
+</div>
+</section>
+</div>
+</section>
+
+</div>
+</section>
+
+<!-- PROJECTS
+<section id="projects" class="bg-gray-800 py-24">
+<div class="max-w-7xl mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-12 text-purple-400">Projects</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-2xl hover:scale-105 transition duration-300">
+<h3 class="text-xl font-semibold mb-2 text-white">Document Sign App</h3>
+<p class="opacity-70 text-sm text-gray-300">MERN app for uploading, signing and managing documents securely.</p>
+</div>
+<div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-2xl hover:scale-105 transition duration-300">
+<h3 class="text-xl font-semibold mb-2 text-white">Auth System</h3>
+<p class="opacity-70 text-sm text-gray-300">JWT-based authentication with role-protected routes.</p>
+</div>
+<div class="p-6 bg-gray-700 rounded-xl shadow hover:shadow-2xl hover:scale-105 transition duration-300">
+<h3 class="text-xl font-semibold mb-2 text-white">Portfolio Website</h3>
+<p class="opacity-70 text-sm text-gray-300">Fully responsive portfolio built using Tailwind CSS.</p>
+</div>
+</div>
+</div>
+</section> -->
+
+<!-- CONTACT -->
+<section id="contact" class="py-24 max-w-5xl mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-12 text-violet-300">Contact Me</h2>
+<form class="grid gap-6" onsubmit="handleSubmit(event)">
+<input type="text" placeholder="Your Name" class="border p-4 rounded-lg focus:border-purple-400 focus:ring-1 focus:ring-purple-400 outline-none transition bg-gray-700 text-gray-200"/>
+<input type="email" placeholder="Email Address" class="border p-4 rounded-lg focus:border-purple-400 focus:ring-1 focus:ring-purple-400 outline-none transition bg-gray-700 text-gray-200"/>
+<textarea rows="5" placeholder="Your Message" class="border p-4 rounded-lg focus:border-purple-400 focus:ring-1 focus:ring-purple-400 outline-none transition bg-gray-700 text-gray-200"></textarea>
+<button class="bg-gradient-to-r from-pink-500 to-violet-500 text-white py-4 rounded-lg hover:from-purple-600 hover:to-pink-600 transition">Send Message</button>
+</form>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t py-6 text-center text-gray-300 bg-gray-900">
+© 2026 Mahesh Dhondge. All rights reserved.
+
+<div id="contactPopup" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50">
+  <div class="bg-gray-900 text-gray-200 p-8 rounded-2xl shadow-2xl w-[90%] max-w-sm text-center popup-scale">
+    <h3 class="text-2xl font-bold text-purple-400 mb-4">Contact Details</h3>
+    <p class="mb-2">📧 <span class="text-cyan-400">maheshdhondge26@gmail.com</span></p>
+    <p class="mb-6">📞 <span class="text-cyan-400">9284574709</span></p>
+    <button onclick="closePopup()" class="px-6 py-2 bg-emerald-500 rounded-full hover:bg-purple-600 transition">
+      Close
+    </button>
+  </div>
+</div>
+</footer>
+
+</main>
+<script>
+  setInterval(function(){
+      var dt = new Date();
+  var hours = dt.getHours() % 12;
+  hours = hours ? hours : 12; // convert 0 to 12
+  var minutes = dt.getMinutes().toString().padStart(2, "0");
+  var ampm = dt.getHours() >= 12 ? "PM" : "AM";
+  var str = hours + ":" + minutes + " " + ampm;
+  console.log(str);
+  document.querySelector(".time").textContent = str;
+},1000)
+</script>
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    const popup = document.getElementById("contactPopup");
+    popup.classList.remove("hidden");
+    popup.classList.add("flex");
+  }
+
+  function closePopup() {
+    const popup = document.getElementById("contactPopup");
+    popup.classList.add("hidden");
+    popup.classList.remove("flex");
+  }
+</script>
+
+</body>
+</html>

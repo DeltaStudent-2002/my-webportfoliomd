@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-white text-black font-sans">
+
+<!-- ================= NAVBAR ================= -->
+<header class="fixed top-0 left-0 w-full bg-white z-50 border-b">
+  <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">Portfolio</h1>
+    <div class="hidden md:flex gap-6 text-sm">
+      <a href="#home" class="opacity-60 hover:opacity-100">Home</a>
+      <a href="#about" class="opacity-60 hover:opacity-100">About</a>
+      <a href="#skills" class="opacity-60 hover:opacity-100">Skills</a>
+      <a href="#projects" class="opacity-60 hover:opacity-100">Projects</a>
+      <a href="#contact" class="opacity-60 hover:opacity-100">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="pt-28">
+
+<!-- ================= HERO ================= -->
+<section id="home" class="max-w-7xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-16">
+  
+  <div>
+    <h6 class="text-xl font-semibold">Hello, I am</h6>
+    <h1 class="text-5xl md:text-7xl font-bold tracking-tight">Mahesh</h1>
+    <p class="mt-4 text-lg opacity-80 max-w-md">
+      Creative Full Stack Developer building modern, scalable web applications.
+    </p>
+    <div class="mt-6 flex gap-4">
+      <a href="#projects" class="px-6 py-3 bg-black text-white rounded-lg">View Work</a>
+      <a href="#contact" class="px-6 py-3 border border-black rounded-lg">Contact</a>
+    </div>
+  </div>
+
+  <img
+    src="https://media.licdn.com/dms/image/v2/D5603AQEiVMajm54ZJg/profile-displayphoto-crop_800_800/B56Zt3mebAJEAM-/0/1767238135219?e=1772668800&v=beta&t=009weAr82H9NzumYI5CgIqX3qz_quRRCh6rhKBLqeHs"
+    class="w-60 h-60 md:w-80 md:h-80 rounded-full object-cover border-4 border-black"
+    alt="Mahesh"
+  />
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="bg-gray-100 py-24">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-lg opacity-80">
+      I'm Mahesh Dhondge, a passionate Full Stack Developer specializing in
+      MERN stack. I love building clean UI, scalable backend systems, and
+      solving real-world problems with code.
+    </p>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="py-24 max-w-7xl mx-auto px-6">
+  <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <div class="p-6 border rounded-xl">HTML</div>
+    <div class="p-6 border rounded-xl">CSS / Tailwind</div>
+    <div class="p-6 border rounded-xl">JavaScript</div>
+    <div class="p-6 border rounded-xl">React</div>
+    <div class="p-6 border rounded-xl">Node.js</div>
+    <div class="p-6 border rounded-xl">Express</div>
+    <div class="p-6 border rounded-xl">MongoDB</div>
+    <div class="p-6 border rounded-xl">JWT / Auth</div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="bg-gray-100 py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Document Sign App</h3>
+        <p class="opacity-70 text-sm">
+          MERN app for uploading, signing and managing documents securely.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Auth System</h3>
+        <p class="opacity-70 text-sm">
+          JWT-based authentication with role-protected routes.
+        </p>
+      </div>
+
+      <div class="p-6 bg-white rounded-xl shadow">
+        <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+        <p class="opacity-70 text-sm">
+          Fully responsive portfolio built using Tailwind CSS.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-24 max-w-5xl mx-auto px-6">
+  <h2 class="text-3xl font-bold text-center mb-12">Contact Me</h2>
+
+  <form class="grid gap-6">
+    <input type="text" placeholder="Your Name" class="border p-4 rounded-lg" />
+    <input type="email" placeholder="Email Address" class="border p-4 rounded-lg" />
+    <textarea rows="5" placeholder="Your Message" class="border p-4 rounded-lg"></textarea>
+    <button class="bg-black text-white py-4 rounded-lg">
+      Send Message
+    </button>
+  </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="border-t py-6 text-center text-sm opacity-60">
+  © 2026 Mahesh Dhondge. All rights reserved.
+</footer>
+
+</main>
+
+</body>
+</html>
